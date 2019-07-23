@@ -1,4 +1,5 @@
 [![CircleCI](https://circleci.com/gh/py-bros/Python-Excercises.svg?style=svg)](https://circleci.com/gh/py-bros/Python-Excercises)
+
 # Python-Excercises
 
 This text is written inside README.md file.
@@ -7,4 +8,4 @@ This text is written inside README.md file.
 
 ### Thanos Sort
 
-Original Problem: codeforces.com/contest/1145/problem/A
+![Original Code Forces Problem](codeforces.com/contest/1145/problem/A)
