@@ -8,4 +8,4 @@ This text is written inside README.md file.
 
 ### Thanos Sort
 
-![Original Code Forces Problem](codeforces.com/contest/1145/problem/A)
+![Original Code Forces Problem](https://codeforces.com/contest/1145/problem/A)
