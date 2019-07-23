@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/py-bros/Python-Excercises.svg?style=svg)](https://circleci.com/gh/py-bros/Python-Excercises)
 # Python-Excercises
 
 This text is written inside README.md file.
