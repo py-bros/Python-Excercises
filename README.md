@@ -7,5 +7,4 @@ This text is written inside README.md file.
 ### Modify according to project details
 
 ### Thanos Sort
-
-![Original Code Forces Problem](https://codeforces.com/contest/1145/problem/A)
+<a href="https://codeforces.com/contest/1145/problem/A">Thanos Sort</a>
