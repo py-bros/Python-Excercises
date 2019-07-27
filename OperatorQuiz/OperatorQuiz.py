@@ -12,6 +12,7 @@ try:
     init()
 except ImportError:
     print("Can't work without colorama")
+    exit()
 
 
 def command_handler(input_):
