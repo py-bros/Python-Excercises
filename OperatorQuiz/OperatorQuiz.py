@@ -116,7 +116,7 @@ while True:
 
     print(Fore.GREEN + "...\n \nPress Return" + Fore.WHITE)
     input()
-    if platform.platform() == 'linux':
+    try:
         os.system('clear')
-    else:
+    except Exception:
         os.system("cls")
