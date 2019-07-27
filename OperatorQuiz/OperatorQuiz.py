@@ -116,4 +116,7 @@ while True:
 
     print(Fore.GREEN + "...\n \nPress Return" + Fore.WHITE)
     input()
-    os.system("cls")
+    if platform.platform() == 'linux':
+        os.system('clear')
+    else:
+        os.system("cls")
