@@ -73,7 +73,10 @@ def command_handler(input_):
 
     # Displays score
     elif input_ in ["score", "Гол"]:
+        print('-'*10)
         print(Fore.LIGHTYELLOW_EX + "Score :", score, Fore.WHITE)
+        print(Fore.LIGHTYELLOW_EX + "Difficulty :", difficulty, Fore.WHITE)
+        print('-'*10)
     return selected_operator
 
 
@@ -87,7 +90,11 @@ score = 0
 
 while True:
     if attempted:
-        a, b = random.randint(0, difficulty), random.randint(0, difficulty)
+        try:
+            a, b = random.randint(0, difficulty), random.randint(0, difficulty)
+        except :
+            print(Fore.LIGHTRED_EX + "Incorrect limit." + Fore.WHITE)
+            difficulty = random.randint(0, 100)
         attempted = False
     print(a, selected_operator, b, " = ____?")
     input_ = input("<<< ").lower()
@@ -109,4 +116,3 @@ while True:
     print(Fore.GREEN + "...\n \nPress Return" + Fore.WHITE)
     input()
     os.system("cls")
-    
